@@ -8,17 +8,26 @@ const assignment = {};
  * Challenge - 1
  * 
  * Calculate and return the sum of the numbers in an array.
- * If you did Challenge - 1, remove the comment in the line just after this function
- * 
- * @param {Array} arrayOfNumbers the array of numbers to sum
- * @returns number the sum of the numbers
- */
-function sumOfNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
-}
-// assignment.sumOfNumbers = sumOfNumbers;
+* If you did Challenge - 1, remove the comment in the line just after this function
+*
+* @param {Array} arrayOfNumbers the array of numbers to sum
+* @returns number the sum of the numbers
+*/
 
-/**
+let arrayofNumbers = [1,3,7,9,17,6,15]
+ 
+function sumOfNumbers(arrayOfNumbers) {
+    let totalNumbers = 0;
+  for (let i 
+  =0;i<arrayOfNumbers.length; i++){
+     totalNumbers += arrayOfNumbers[i];
+  }
+    return totalNumbers
+     }
+
+assignment.sumOfNumbers = sumOfNumbers;
+
+/*
  * Challenge - 2
  * 
  * Count all even numbers within an array of numbers.
@@ -27,10 +36,19 @@ function sumOfNumbers(arrayOfNumbers) {
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
-function countEvenNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
+function 
+  countEvenNumbers(arrayOfNumbers) {
+  let evenArray = [ ]
+    for(let i= 0; i <
+ arrayOfNumbers.length; i++){
+       if(arrayOfNumbers[i] % 2 == 0) {
+
+         evenArray.push(arrayOfNumbers[i]);
+       }
+        }
+         return evenArray.length;
 }
-// assignment.countEvenNumbers = countEvenNumbers;
+ assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
@@ -46,9 +64,7 @@ function countEvenNumbers(arrayOfNumbers) {
  * @param {Array} arrayOfNumbers the array containing temperatures in Celsius to be converted
  * @returns Array the converted temperatures in Fahrenheit
  */
-function celsiusToFahrenheit(arrayOfNumbers) {
-    return arrayOfNumbers;
-}
+function                                            
 // assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
