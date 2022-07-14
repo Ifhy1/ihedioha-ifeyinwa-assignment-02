@@ -62,7 +62,7 @@ function
  * @returns Array the converted temperatures in Fahrenheit
  */ 
 function celsiusToFahrenheit(arrayOfNumbers) {
-  return arrayOfNumbers
+  return arrayOfNumbers.length
 };
 
 // assignment.celsiusToFahrenheit = celsiusToFahrenheit;
